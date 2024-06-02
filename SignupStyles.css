@@ -1,0 +1,140 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("redwire.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;/* Optional: Adjust the size of the background image */
+    background-position: center;
+    height: 15cm;
+  }
+    span {
+      padding-top: 15px;
+  
+    }
+  .createh1 {
+    text-align: center;
+    color: black;
+    padding: 10px;
+    font-size: x-large;
+    margin-bottom: -40px;
+  }
+  
+    #newname {
+      width: 39%;
+      padding: 10px;
+      margin-left: 23px;
+      border-radius: 10px;
+      background-color: lightgrey;
+      background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.2));
+      margin-top: 30px;
+  }
+  #oldname{
+    width:41%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 8px;
+    border-radius: 10px;
+    background-color: lightgrey;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.2));
+  
+  }
+  .newstyle{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -18px;
+  }
+  #demail{
+    margin-top: 15px;
+    width: 86%;
+    margin-bottom: -5px;
+    margin-left: 25px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: lightgrey;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.2));
+  }
+  
+  #nazword {
+    width: 100%;
+    margin-top: 40px;
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 25px;
+    margin-right: 5px;
+    background-color: lightgrey;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.2));
+  }
+  
+  #repeatnazword{
+      width: 95%;
+      padding: 10px;
+      margin-top: 40px;
+      margin-left: 55px;
+      margin-right: 10px;
+      background-color: lightgrey;
+      background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.2));
+      border-radius: 10px;
+  }
+  
+  .signupbtn{
+    background-color: blueviolet;
+    text-align: center;
+    width: 45%;
+    padding: 10px;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: medium;
+    margin-left: 4cm;
+    margin-top: 50px;
+    transform: translate(0, -70%);
+  }
+    .signupbtn:hover {
+      background-color: peru;
+    }
+    
+    .already {
+      text-align: center;
+      color: black;
+      transform: translate(1%, -90%);
+      
+    }
+    .register {
+      text-align: center;
+      color: black;
+      transform: translate(1%, 50%);
+    }
+    
+    .copy {
+      text-align: center;
+      color: black;
+      font-size: bold;
+      transform: translate(0, -130%);
+    }
+  
+  
+    .realform{
+      width: 15cm;
+      height: 11cm;
+      background-color: whitesmoke;
+      transform: translate(60%,5%);
+      border-radius: 10%;
+    }
+   
+  
+    
+    .signupnaz{
+     
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -18px;
+    }
+  
+   ul > li { 
+     color: white;
+     
+    }
+    .righthomenav .navalls li a {
+      color: white;
+    }
+    

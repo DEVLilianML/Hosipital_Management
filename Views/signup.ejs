@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <link rel="stylesheet" href="/SignupStyles.css">
+</head>
+<body>
+     <form action="/signup" method="POST" class="realform">
+             <div>
+               <h1 class="createh1"><b>Welcome To Health Clinic</b></h1>
+                <p class="register">Register with us</p>
+               <label for="newname">
+                <input
+                  type="text"
+                  name="firstName"
+                  placeholder="First Name"
+                  id="newname"
+                   required
+                />
+                 </label>
+              
+                    <label for="oldname">
+                   <input
+                  type="text"
+                  name="lastName"
+                  placeholder="Last Name"
+                  id="oldname"
+                  required
+                />
+                  </label>
+              
+              </div>
+             
+              <label for="demail">
+                <input type="email" name="email" placeholder="E-mail"  id="demail" required />
+              </label>
+              <div  class="signupnaz">
+                <label for="nazword">
+                <input type="password" name="password" placeholder="Password"  id="nazword" required/>
+                </label>
+
+               <label for="repeatnazword">
+                <input type="password" name="confirmPassword" placeholder="Confirm password"  id="repeatnazword" required />
+               </label>
+              </div>
+            <div class="labelButton">
+                <button type="submit"  class="signupbtn">Sign up</button>
+            </div>
+            <div>
+              <p class="already">Already have an account? <a href="/login" id="s_b">Login</a>
+
+              
+              <p class="copy"><b>Copyright © Africa Agility.com</b> </p>
+            </div>
+   </form>
+</body>
+</html>

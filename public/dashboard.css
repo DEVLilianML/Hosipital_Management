@@ -1,0 +1,61 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("care.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+    height: 15cm;
+  }
+ 
+  .createh1 {
+    text-align: center;
+    color: black;
+    padding: 10px;
+    font-size: x-large;
+    margin-bottom: -40px;
+  }
+
+
+.navalls {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+.navalls li {
+    margin-right: 50px;
+}
+
+
+  
+  .lefthomenav h1 {
+    color: black
+
+  }
+  .mytext{
+    display: inline-block;
+    width: 30%;
+    height: 40%;
+    background-color: white;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 20px;
+    transform: translate(0%,70%);
+    float: right;
+
+  }
+
+  .navalls li {
+    margin-right: 20px; /* Adjust the value as needed */
+}
+.dnav {display: flex;
+  flex-direction: row;
+justify-content: space-around;
+}
+
+
+  
+  
+ 
+  

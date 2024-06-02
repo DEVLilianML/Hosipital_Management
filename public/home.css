@@ -1,0 +1,63 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("flowernurse.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+    height: 15cm;
+  }
+  
+  .homenav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .lefthomenav h1 {
+    color: black
+  }
+  
+  button{
+    font-size: large;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+   
+  }
+
+  button:hover {
+    background-color: skyblue;
+  }
+  
+  .serve {
+    background-image: url("peep.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+    display: inline-block;
+    width: 25%;
+    height: 35%;
+    border-radius: 50%;
+    text-align: center;
+    transform: translate(0%,100%);
+ 
+  }
+  .serve li {
+    font-size: larger;
+    color: rgb(0, 0, 0);
+  
+
+  }
+  .our{
+    display: inline-block;
+    width: 25%;
+    height: 30%;
+    border-radius: 20PX;
+    background-color: transparent;
+   transform: translate(150%,170%);
+   
+  }
+  
+  
+ 
